@@ -8,7 +8,6 @@ adjlst = [[1]]
 for i in range(n):
     adjlst.append([])
 adjlst[1].append(0)
-
 for i in range(n - 1):
     line = input().split()
     x = int(line[0])
