@@ -1,0 +1,31 @@
+Problem
+Consider a series  that is defined as follows:
+
+F(1) = 1
+F(2) = 1
+F(3) = 2
+For n >= 3, 
+Given two integers n and m. We need to make the  term and  term of the series co-prime. Find the largest positive number by which we must divide the  term and  term of the series such both terms become co-prime. Since, this number can be very large, print it modulo .
+
+Note: Two numbers are said to be co-prime if there does not exist any number greater than 1, which divides both the numbers.
+
+Input format
+
+The first line contains an integer  denoting the number of test cases.
+For each test case:
+The first line contains a string denoting the integer .
+The second line contains an integer .
+Output format
+
+For each test case in a new line, find the required largest positive number modulo .
+
+Constraints
+
+
+ 
+
+Sample Input
+1
+3 6
+Sample Output
+2

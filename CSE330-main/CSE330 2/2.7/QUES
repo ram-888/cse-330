@@ -1,0 +1,23 @@
+Given two integer N and K. The task is to find the string S of minimum length such that it contains all possible strings of size N as a substring. The characters of the string can be from 0 to K-1.  
+
+Example 1:
+
+Input:
+N = 2, K = 2
+Output: 
+00110
+Explanation: 
+There are 4 string possible of size N=2 
+which contains characters 0,..K-1
+(i.e "00", "01","10","11")
+"00110" contains all possible string as a 
+substring. It also has the minimum length
+Example 2:
+
+Input:
+N = 2, K = 3
+Output: 
+0010211220
+Your Task: 
+You don't need to read input or print anything. Complete the function findString( ) which takes the integer N and the integer K as input parameters and returns the string.
+Note: In case of multiple answers, return any string of minimum length which satisfies above condition. The driver will print the length of the string. In case of wrong answer it will print -1.
